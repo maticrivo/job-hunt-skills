@@ -22,7 +22,7 @@ Creates interview documentation from templates, updates application status acros
 
 - **Interview file:** `interviews/{company}-round{N}-{type}.md`
 - **Interview types:** `hr-phone`, `technical`, `system-design`, `behavioral`, `final`
-- **Template:** `resources/interview.md`
+- **Template:** `templates/interview.md`
 - **Date format:** `D/M/YYYY`
 
 ## Workflow
@@ -41,7 +41,7 @@ Creates interview documentation from templates, updates application status acros
    - Key notes: questions asked, responses, red flags, positive signals
 
 2. **Create interview file:**
-   - Copy `resources/interview.md` to `interviews/{company}-round{N}-{type}.md`
+   - Copy `templates/interview.md` to `interviews/{company}-round{N}-{type}.md`
    - Fill in all provided details
    - Add questions asked and notes to appropriate sections
 

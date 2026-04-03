@@ -24,7 +24,7 @@ All paths relative to repo root. Follow these conventions exactly:
 
 - **Application:** `applications/{company}-{role-slug}.md` (lowercase, hyphens, slugify role)
 - **Company:** `companies/{company}.md` (lowercase, hyphens)
-- **Template sources:** `resources/application.md`, `resources/company.md`
+- **Template sources:** `templates/application.md`, `templates/company.md`
 - **Date format:** `D/M/YYYY` (e.g., `27/3/2026`)
 - **Status emojis:** 📝 Applied · 📞 Phone Screen · 💻 Technical Interview · 🏢 Onsite · ✅ Offer · ❌ Rejected · 🚫 Withdrawn · 👻 Ghosted
 
@@ -40,11 +40,11 @@ All paths relative to repo root. Follow these conventions exactly:
    - Notes (optional)
 
 2. **Check/create company file:**
-   - If `companies/{company}.md` doesn't exist → create from `resources/company.md`
+   - If `companies/{company}.md` doesn't exist → create from `templates/company.md`
    - Replace `{Company}` with actual name
 
 3. **Create application file:**
-   - Copy `resources/application.md` to `applications/{company}-{role-slug}.md`
+   - Copy `templates/application.md` to `applications/{company}-{role-slug}.md`
    - Replace `{Company}` and `{Role}` placeholders
    - Fill in Date Applied, Source, and any provided notes
 

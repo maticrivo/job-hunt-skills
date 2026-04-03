@@ -53,7 +53,7 @@ Flag imbalances:
 ### 4. Follow-Up Suggestions
 
 For each stale application, suggest action:
-- **Applied + 7-14 days:** Send follow-up email (reference `resources/follow-up.md`)
+- **Applied + 7-14 days:** Send follow-up email (reference `templates/follow-up.md`)
 - **Applied + 14+ days:** Consider marking as Ghosted
 - **Phone Screen + 7+ days:** Follow up on next steps
 - **Technical + 7+ days:** Check on timeline
@@ -98,7 +98,7 @@ For each stale application, suggest action:
 
 This skill is primarily read-only. When follow-ups are suggested:
 1. Show the report
-2. Ask if user wants to generate a follow-up email (using `resources/follow-up.md`)
+2. Ask if user wants to generate a follow-up email (using `templates/follow-up.md`)
 3. Ask if any statuses need updating (hand off to `application-manager` if so)
 
 ## Edge Cases
